@@ -5,6 +5,19 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 
+#about {
+    background-color: lightyellow;
+}
+
+.first-container {
+
+}
+
+.special-container h2 {
+    color: lime;
+    font-weight: bold;
+}
+
 .container {
     color: rebeccapurple;
     font-weight: bold;
@@ -15,9 +28,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 }
 
 #logo {
-    max-height: 100px;
-    margin-right: 10px;
-    margin-top: -15px;
+    max-height: 130px;
+    float: left;
+    margin-left: -35px;
+    /*margin-right: 15px;*/
+    margin-top: -10px;
 }
 
 body{
@@ -67,7 +82,7 @@ body a:hover{
 }
 .navbar-header h1 a {
     padding-right: 75px;
-    color: darkred;
+    color: red;
     font-size: 45px;
     font-weight: bold;
     text-decoration: none;
@@ -92,20 +107,22 @@ ul.nav.navbar-nav.navbar-right {
     margin: 0 1.2em;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #fff;
+    color: yellow;
+    font-weight: bold;
     font-size: 1.2em;
     padding: 0 5px;
     position: relative;
 	font-weight: 300;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-nav li a.active {
-    color: #ff8c00;
+    color: red;
+    font-weight: bold;
 }
 .navbar-default .navbar-nav > li > a:before {
     content: '';
     position: absolute;
     top: 10px;
-    background: #ffffff;
+    background: red;
     height: 2px;
     width: 16px;
     right: -26px;
@@ -199,9 +216,8 @@ ul.nav.navbar-nav.navbar-right {
 p {
     font-size: 1em;
     color: darkred;
-    font-weight: 300;
-    line-height: 2em;  
-    font-weight: 400;
+    font-weight: 500;
+    line-height: 2em;
 }
 .welcome p { 
     letter-spacing: 1px; 
@@ -219,7 +235,7 @@ p {
     transition: .5s all;
 }
 .open-hours-left:nth-child(1) {
-    background: #ff8c00;
+    background: red;
     padding: 2.8em 0;
 }
 .open-hours-left:nth-child(3) {
@@ -249,7 +265,7 @@ p {
     font-weight: 700;
 }
 .open-hours-left:hover {
-    background: #ff8c00;
+    background: #3c763d;
 }
 /*-- //welcome --*/
 img.zoom-img{
@@ -1219,7 +1235,7 @@ h4.modal-title {
     min-height: 655px;
 }
 .open-hours-row {
-    margin-top: 1em; 
+    margin-top: 1em;
 }
 .slid p { 
     width: 75%; 
